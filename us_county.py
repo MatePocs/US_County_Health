@@ -31,7 +31,7 @@ rename_dictionary = {
     'High school graduation raw value' : 'high_school_graduation', 
     'Some college raw value' : 'college',
     'Unemployment raw value' : 'unemployment', 
-    'Children in poverty raw value' : 'children_in_oiverty',
+    'Children in poverty raw value' : 'children_in_poverty',
     'Income inequality raw value' : 'income_inequality',
     'Children in single-parent households raw value' : 'children_in_singleparent_household',
     'Social associations raw value' : 'social_associations', 
