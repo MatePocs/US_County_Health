@@ -23,7 +23,7 @@ High Level Overview: The project started by identifying relevant metrics to our 
 
 Limitations:
 1. During our preliminary feature selection, we removed several variables with high levels of multicollinearity but remaining variables still possess relatively high VIF figures.
-2. Our final model consists of too many variables after few rounds of screening and filtering, currently at 100 predictive variables, including interaction and polynomial features, which we aim to cut down for future work.
+2. Our final model consists of many variables after few rounds of screening and filtering, currently at around 100 predictive variables, including interaction and polynomial features, which we aim to cut down for future work.
 3. Scaling issues encountered with the addition of multiple polynomial features, as different model performance acquired before and after normalization of the train data.
 
 Future Work (Technical):
