@@ -21,6 +21,12 @@ __Methodology__: This project uses Python 3, documented with Jupyter Notebook. W
 
 __High Level Overview__: The project started by identifying relevant metrics to our target variable, namely Poor Mental Health Days, which describes the average number of poor mental health days per month. The relevant metrics are then filtered by checking its multicollinearity with Variance Inflation Factor. After data cleaning, a baseline model was created for comparison with future adjusted models. Interactions and Polynomials Features were added to improve model performance. A high complexity model was created by including both interaction features and high degree of polynomial features, which resulted in an overfitted model. We then used regularization techniques like Lasso & Ridge method to reduce overfitting of the model while improving respective model performance during cross-validation. Residual Homoscedasticity & Normality Tests were conducted on the final model, which was then applied onto the test data. Finally, we interpretted the test results and formulated actionable insights from the analysis.
 
+__Files__:
+- <code>index.ipynb</code> : main Jupyter Notebook
+- <code>analytic_data_2019.csv</code> : input data 
+- <code>data_linreg.csv</code> : data cleaned and ready for linear regression
+- <code>us_county.py</code> : contains dictionary for column renaming
+
 __Limitations__:
 1. During our preliminary feature selection, we removed several variables with high levels of multicollinearity but remaining variables still possess relatively high VIF figures.
 2. Our final model consists of many variables after few rounds of screening and filtering, currently at around 100 predictive variables, including interaction and polynomial features, which we aim to cut down for future work.
