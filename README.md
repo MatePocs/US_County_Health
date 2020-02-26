@@ -59,5 +59,5 @@ __Actionable insights__:
 <br>
 
 With keeping the precautions outlined in the paragraph above when it comes to interpreting results of regression models, we believe can still draw some insights from the model.
-- Insufficient sleep is a very good indicator of mental health. It can be used as a good predictor for future mental health issues. If we assume there is some causation from sleep quality to mentahl health, mental health can be improved via awareness of this factor. Sleep quality can be improved to some extent via external economic factors, improving work-life balance, etc. 
+- Insufficient sleep is a very good indicator of mental health. It can be used as a good predictor for future mental health issues. If we assume there is some causation from sleep quality to mental health, mental health can be improved via awareness of this factor. Sleep quality can be improved to some extent via external economic factors, improving work-life balance, etc. 
 - Smoking also highly correlates with mental health issues, which is a fact that could improve the effects of anti-smoking advertisements. 
