@@ -57,7 +57,6 @@ One has to be careful when interpreting the outcome of a model like this. We can
 - On the positive side there are variables like going to college and having a large amount of social associations, these improve mental health.
 - A number of variables were interactions, like excessive drinking, which in itself didn't have a large coefficient, but combined with other variables, it does. 
 - The single most relevant variable (in the dataset that we kept, because remember, we excluded health-related variables) seems to be insufficient sleep. This variable shows up in many interactions, and has a very interesting polynomial shape. Higher insufficient sleep decreases mental health, but not in a linear shape, the effect is decreasing. 
-<br>
 
 ## Actionable insights 
 With keeping the precautions outlined in the paragraph above when it comes to interpreting results of regression models, we believe can still draw some insights from the model.
