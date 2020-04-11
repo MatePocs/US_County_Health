@@ -51,8 +51,6 @@ We then used regularization techniques like Lasso & Ridge method to reduce overf
 2. Outsource missing data points from several states from external sources
 
 ## Outcomes 
-<br>
-
 One has to be careful when interpreting the outcome of a model like this. We can say that certain variables are a good predictor for other variables, but this does not necessarily mean that artificially changing them would also change the target variable. The causation could be reverse, or it could be tied to a third, perhaps external, unknown variable. When we say "improve" or "decrease" below, it is with understanding that we talk about the predictive powers of the variables, not necessarily the real-life implications. 
 
 - We identified couple of variables, like insufficient sleep, physical inactivity, smoking, uninsured children, which have a high deteriorating effect on mental health. 
@@ -62,8 +60,6 @@ One has to be careful when interpreting the outcome of a model like this. We can
 <br>
 
 ## Actionable insights 
-<br>
-
 With keeping the precautions outlined in the paragraph above when it comes to interpreting results of regression models, we believe can still draw some insights from the model.
 - Insufficient sleep is a very good indicator of mental health. It can be used as a good predictor for future mental health issues. If we assume there is some causation from sleep quality to mental health, mental health can be improved via awareness of this factor. Sleep quality can be improved to some extent via external economic factors, improving work-life balance, etc. 
 - Smoking also highly correlates with mental health issues, which is a fact that could improve the effects of anti-smoking advertisements. 
